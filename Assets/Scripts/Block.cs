@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,7 +7,7 @@ public class Block : MonoBehaviour
     [SerializeField] GameObject blockParticleVFX;
     [SerializeField] Sprite[] damagedSprites;
   
-    [SerializeField] int dmgTaken;
+    [SerializeField] private int dmgTaken;
 
 
     private void Start()

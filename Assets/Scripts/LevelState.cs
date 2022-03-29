@@ -1,13 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelState : MonoBehaviour
 {
-    [SerializeField] int blocksCount;
+    [SerializeField] private int blocksCount;
 
     [SerializeField] Ball ball;
+    
     SceneLoader sceneLoader;
     SceneLoader winSceneLoader;
 

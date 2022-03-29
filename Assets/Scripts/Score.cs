@@ -1,13 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
 public class Score : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI scoreText;
-    [SerializeField] int pointsPerBlock = 10;
-    [SerializeField] int currentScore = 0;
+    [SerializeField] private int pointsPerBlock = 10;
+    [SerializeField] private int currentScore = 0;
 
     private void Awake()
     {

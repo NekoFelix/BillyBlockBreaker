@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    [SerializeField] Pad pad;
+    [SerializeField] private float randomFloat;
     [SerializeField] private float pushX;
     [SerializeField] private float pushY;
+    
     [SerializeField] AudioClip[] ballSounds;
-    [SerializeField] float randomFloat;
+    [SerializeField] Pad pad;
 
     private Vector2 ballOffset;
     private bool hasStarted = false;

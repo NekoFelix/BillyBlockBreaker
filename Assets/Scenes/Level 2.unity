@@ -1192,7 +1192,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3623968931194194252, guid: 3ea6831b1f76ac24e8312cc96c817319, type: 3}
       propertyPath: gameSpeed
-      value: 1.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3623968931194194253, guid: 3ea6831b1f76ac24e8312cc96c817319, type: 3}
       propertyPath: m_RootOrder
@@ -1380,14 +1380,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 105ff242ec99cab4c9ad6d25f7966fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pad: {fileID: 812497630}
+  randomFloat: 0.1
   pushX: 0.01
   pushY: 9
   ballSounds:
   - {fileID: 8300000, guid: 2506fc5db30140943acfce1ac11f7e3a, type: 3}
   - {fileID: 8300000, guid: 46b56c1486c0ba84391fff6376471f0b, type: 3}
   - {fileID: 8300000, guid: d26a14494bf154a4aa1676ee0d3bf437, type: 3}
-  randomFloat: 0.1
+  pad: {fileID: 812497630}
 --- !u!114 &578529461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3556,6 +3556,14 @@ PrefabInstance:
     - target: {fileID: 7866289598047565225, guid: e3854a01acbfc1a4b8da39042d2bebf9, type: 3}
       propertyPath: m_Name
       value: BillyPad
+      objectReference: {fileID: 0}
+    - target: {fileID: 7866289598047565229, guid: e3854a01acbfc1a4b8da39042d2bebf9, type: 3}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 578529460}
+    - target: {fileID: 7866289598047565229, guid: e3854a01acbfc1a4b8da39042d2bebf9, type: 3}
+      propertyPath: isAutoplayEnabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7866289598047565231, guid: e3854a01acbfc1a4b8da39042d2bebf9, type: 3}
       propertyPath: m_RootOrder
