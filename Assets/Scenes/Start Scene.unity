@@ -658,6 +658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Credits
       objectReference: {fileID: 0}
+    - target: {fileID: 6268673362761871194, guid: ed6bba3763d07e145b409bc803402d76, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6268673362761871196, guid: ed6bba3763d07e145b409bc803402d76, type: 3}
       propertyPath: m_Colors.m_FadeDuration
       value: 0.1

@@ -9,8 +9,8 @@ public class Score : MonoBehaviour
 
     private void Awake()
     {
-        int levelStateCount = FindObjectsOfType<Score>().Length;
-        if (levelStateCount > 1)
+        int scoreGameObjectCount = FindObjectsOfType<Score>().Length;
+        if (scoreGameObjectCount > 1)
         {  
             gameObject.SetActive(false);
             Destroy(gameObject);
